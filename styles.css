@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 2rem auto;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1em;
+}
+
+h1 span.small {
+  font-size: 1.5rem;
+}
+
+header {
+  position: relative;
+}
+
+header .blue {
+  background: #E1EDFD;
+  padding: 4rem 0 0 0;
+}
+
+img.headline {
+  width: 80%;
+  max-width: 400px;
+}
+
+div.gradient-overlay {
+  background: rgb(225,237,253);
+  background: -webkit-linear-gradient(rgba(225,237,253,1) 0%, rgba(225,237,253,0) 100%);
+  background: -o-linear-gradient(rgba(225,237,253,1) 0%, rgba(225,237,253,0) 100%);
+  background: linear-gradient(rgba(225,237,253,1) 0%, rgba(225,237,253,0) 100%);
+  height: 4rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+div.hero {
+  position: relative;
+}
+
+img.photo {
+  width: 100%;
+}
+
+section {
+  padding: 4em 0;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px;
+}
