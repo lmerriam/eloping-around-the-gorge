@@ -9,6 +9,11 @@ h1, h2 {
   font-family: 'Patrick Hand', cursive;
 }
 
+h2 {
+  font-size: 2rem;
+  color: #4D6990;
+}
+
 header {
   position: relative;
 }
