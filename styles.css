@@ -1,18 +1,12 @@
 body {
   text-align: center;
   margin: 0;
-  padding: 2rem auto;
   font-size: 1.2rem;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-  font-size: 3rem;
-  line-height: 1em;
-}
-
-h1 span.small {
-  font-size: 1.5rem;
+h1, h2 {
+  font-family: 'Patrick Hand', cursive;
 }
 
 header {
@@ -66,11 +60,9 @@ p {
 }
 
 .button {
-  background: #4D6990;
-  padding: 1rem 2rem;
-  color: white;
-  border-radius: 4px;
-  text-decoration: none;
-  display: inline-block;
-  margin: 1rem 0;
+  margin: 2rem 0;
+}
+
+.rsvp p {
+  margin-bottom: 1.5rem;
 }
