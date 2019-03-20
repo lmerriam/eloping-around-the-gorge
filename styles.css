@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-size: 1.2rem;
   font-family: 'Open Sans', sans-serif;
+  color: #333333;
 }
 
 h1, h2 {
@@ -12,6 +13,7 @@ h1, h2 {
 h2 {
   font-size: 2rem;
   color: #4D6990;
+  font-weight: normal;
 }
 
 header {
