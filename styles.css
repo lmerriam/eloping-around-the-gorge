@@ -48,6 +48,13 @@ img.photo {
   width: 100%;
 }
 
+img#doodle {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 section {
   padding: 4em 0;
 }
@@ -56,4 +63,14 @@ p {
   width: 80%;
   margin: 0 auto;
   max-width: 500px;
+}
+
+.button {
+  background: #4D6990;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem 0;
 }

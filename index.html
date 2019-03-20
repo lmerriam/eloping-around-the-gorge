@@ -15,14 +15,17 @@
         <img src="hero.svg" class="headline" alt="Logan & Cassie went to the courthouse and got married and now they're throwing a big party with all of you!">
       </div>
 
-      <div class="hero">
+      <div class="hero" onClick="updateImgB()">
         <div class="gradient-overlay"></div>
         <img src="hero.png" class="photo" alt="Couple of jerries">
+        <img src="doodle-click.svg" id="doodle" alt="">
       </div>
     </header>
 
     <section class="rsvp">
-
+      <p>We did the boring parts already, all you have to do is show up for the party</p>
+      <!-- <a href="https://goo.gl/forms/seaylOSA9qpXxqcr1" class="button">Count me in</a> -->
+      <a class="typeform-share button" href="https://logan105.typeform.com/to/tHK0En" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#E26D5A;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true data-submit-close-delay="5" target="_blank">Count me in! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
 
     <section class="schedule">
@@ -55,6 +58,27 @@
         Hood River Hotel<br>
         Best Western</p>
     </section>
+
+    <script>
+      var quizImagesB = [
+      "doodle-angel.svg",
+      "doodle-send.svg",
+      "doodle-yorric.svg",
+      "doodle-zombie.svg",
+      "doodle-pirate.svg",
+      "doodle-cheerleader.svg",
+      "doodle-spaghetti.svg",
+      "doodle-tennis.svg"
+    ]
+
+       var i = 0;
+       function updateImgB(){
+          i = i + 1;
+          if (i >= quizImagesB.length) i = 0;
+          var url =  quizImagesB[i];
+          document.getElementById('doodle').src=url;
+        }
+    </script>
 
   </body>
 </html>
